@@ -316,6 +316,12 @@ module.exports = function (grunt) {
                 'imagemin',
                 'svgmin'
             ]
+        },
+        'gh-pages': {
+          options: {
+            base: 'dist'
+          },
+          src: ['**']
         }
     });
 
